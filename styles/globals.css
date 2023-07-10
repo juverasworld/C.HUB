@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  /* list-style: none; */
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+.marquee-wrapper {
+  background-color: #0B4CAD;
+  overflow: hidden;
+}
+.star{
+  text-align: justify;
+}
+.marquee-content {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Example custom styles */
+.carousel-root {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel .slide img {
+  max-height: 300px;
+}
+
+.carousel .legend {
+  color: white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* .marquee-container {
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee-animation 20s linear infinite;
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.odim{
+  width: 100%;
+} */
+
