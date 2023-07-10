@@ -1,41 +1,26 @@
 import React from 'react';
-
+import Image from "next/image"
+import email from "../public/images/email.png";
 const CenteredDiv = () => {
   return (
-    <div className="flex flex-col items-center lg:justify-center md:my-10">
-      <h1 className="text-4xl font-bold mb-4">Tokenomics</h1>
-      <p className="text-[16px] ">$EVR is ipsum dolor sit amet, consectetur adipiscing elit. Aenean id amet,  <br className='md:block hidden' /> volutpat iaculis mattis nibh. Ante tincidunt nisl justo, luctus scelerisque eu a.</p>
-      <p className='my-5'>
-   <button className='px-8 mx-3 py-3 bg-[#0082FF] rounded-3xl text-white'> Buy $EVR</button>
-   <button className='px-8 py-3 bg-white rounded-3xl'>Read Whitepaper</button>
-    </p>
-    <div className="flex my-5 bg-gray-200 px-5">
-      <div className="flex flex-col items-center justify-center p-4  border-gray-300 ">
-        <small className="text-sm">Token Name</small>
-        <p className="text-lg font-bold mt-2">EVR</p>
+    <div className='bg-[#F4F8FD] '>
+
+    <div className="flex   items-center lg:justify-center md:my-10">
+      <div className="flex flex-row justify-evenly bg-white my-36 rounded-md py-10 px-10">
+        <Image src={email} width={200} height={150}/>
+        <div className='mx-10'>
+      <h1 className="text-4xl font-bold text-[#0B4CAD]"> Join the 569 people who trust Us <br className='sm:block hidden'/> with their money</h1>
+<div>
+  <form className='my-3' action="">
+    <input type="email" placeholder='your work email address' className='bg-gray-100 h-12 w-72 pl-4 outline-[#0b4cad]' />
+    <button className='bg-[#0B4CAD] text-white'>Join the waitlist</button>
+  </form>
+</div>
+        </div>
       </div>
-      <div className="flex flex-col items-center justify-center p-4 border-l border-gray-300">
-        <p className="text-sm">Total Supply</p>
-        <p className="text-lg font-bold mt-2">250,000,000</p>
-      </div>
-      <div className="flex flex-col items-center justify-center p-4 border-l border-gray-300">
-        <p className="text-sm">Total Supply</p>
-        <p className="text-lg font-bold mt-2">1EVR=$20.3</p>
-      </div>
-    </div>
-    <div className="flex bg-gray-200 px-5">
-      <div className="flex flex-col items-center justify-center p-4  border-white border-1 ">
-        <small className="text-sm">Circulating supply</small>
-        <p className="text-lg font-bold ">500,000,000</p>
-      </div>
-      <div className="flex flex-col items-center justify-center p-4  border-white border-1">
-        <small className="text-sm">Circulating supply</small>
-        <p className="text-lg font-bold ">500,000,000</p>
-      </div>
-      <div className="flex flex-col items-center justify-center p-4  border-white border-1  ">
-        <small className="text-sm">Circulating supply</small>
-        <p className="text-lg font-bold ">500,000,000</p>
-      </div>
+      
+     
+   
     </div>
     </div>
     
