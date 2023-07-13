@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from "next/image"
-import heroImage from "../public/images/heroImage.png";
+// import heroImage from "../public/images/heroImage.png";
 import appstore from "../public/images/appstore.png";
+import main from "../public/images/main.png"
 import google from "../public/images/google.png";
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="flex-1 md:w-1/2">
         <Image
-          src={heroImage}
+          src={main}
           width={300}
           height={150}
           alt="heroImage Image"
