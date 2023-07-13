@@ -35,7 +35,11 @@ ul {
   padding: 0;
   /* list-style: none; */
 }
-
+.phone{
+  background: url(../public/images/Untitled.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;

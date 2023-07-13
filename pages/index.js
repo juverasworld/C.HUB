@@ -11,6 +11,7 @@ import HeroComponent from '../Components/Herob'
 import Dropdown from '../Components/Dropdown'
 import Footer from '../Components/Footer'
 import Marquee from '../Components/Marque'
+import Phone from '../Components/Phone'
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         <Benefits/>
         <HeroC />
         <HeroD />
+        <Phone/>
+        <Footer/>
 
         
         {/* <HeroComponent />
@@ -35,7 +38,7 @@ export default function Home() {
         <Quarter/>
         <Dropdown/>
         <Hero />
-        <Footer/> */}
+       */}
       </main>
 
     </div>
