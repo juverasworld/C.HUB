@@ -3,7 +3,7 @@ import Image from "next/image"
 import heroImage from "../public/images/heroImage.png";
 import appstore from "../public/images/appstore.png";
 import google from "../public/images/google.png";
-const HeroComponent = () => {
+const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row bg-white">
       <div className="flex-1 md:w-1/2 bg-white star text-center text-[#0B4CAD] text-Black py-10 px-5 mx-10 sm:mt-16 mt-5">
@@ -33,4 +33,4 @@ const HeroComponent = () => {
   );
 };
 
-export default HeroComponent;
+export default Hero;
